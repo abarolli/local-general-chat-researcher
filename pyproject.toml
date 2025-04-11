@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local_general_chat_researcher"
+version = "0.0.1"
+authors = [
+  { name="Adeiron Barolli", email="obarolli@onicodes.io" },
+]
+description = "A local LLM assistant that serves as a general chat agent but also performs deep searches on the web when a topic requires it."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-ollama",
+    "langgraph",
+    "langgraph-checkpoint",
+    "langgraph-sdk",
+    "ollama",
+    "openai",
+    "tavily-python"
+]
+
+[project.urls]
+Homepage = "https://github.com/abarolli/local-general-chat-researcher"
+Issues = "https://github.com/abarolli/local-general-chat-researcher/issues"
