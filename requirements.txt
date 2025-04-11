@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+langgraph
+langgraph-checkpoint
+langgraph-sdk
+ollama
+openai
+tavily-python
